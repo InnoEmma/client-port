@@ -1,7 +1,7 @@
 // Importing your local SVG assets (these import as URL strings)
 import Asana from "../extra/Asana.svg";
 import ClickUp from "../extra/ClickUp.svg";
-import Chatgpt from "../extra/Chatgpt.svg";
+import ChatGPT from "../extra/ChatGPT.svg";
 import Calendly from "../extra/Calendly.svg";
 import Notion from "../extra/Notion.svg";
 import Slack from "../extra/Slack.svg";
@@ -13,7 +13,7 @@ const BRAND_LOGOS = [
   { name: "Slack", src: Slack },
   { name: "Asana", src: Asana },
   { name: "Calendly", src: Calendly },
-  { name: "ChatGPT", src: Chatgpt },
+  { name: "ChatGPT", src: ChatGPT },
 ];
 
 export default function Gemi({ speed = "48s", bgColor = "#0a030f" }) {
