@@ -1,0 +1,119 @@
+<!-- <svg width="1020" height="1020" viewBox="0 0 1020 1020" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_329_553)">
+<rect width="1020" height="1020" fill="#140018"/>
+<path d="M599.671 429.241L509.558 765.545C509.558 765.545 121.657 485.509 164.306 326.343C204.891 174.877 599.671 429.241 599.671 429.241Z" fill="#DBE8FB"/>
+<path d="M420.963 429.247L511.075 765.546C511.075 765.546 898.976 485.513 856.328 326.348C815.744 174.886 420.963 429.247 420.963 429.247Z" fill="#DBE8FB"/>
+</g>
+<defs>
+<clipPath id="clip0_329_553">
+<rect width="1020" height="1020" fill="white"/>
+</clipPath>
+</defs>
+</svg> -->
+
+
+<svg width="1020" height="1020" viewBox="0 0 1020 1020" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Surreal striped desert sunset">
+  <defs>
+    <clipPath id="frame">
+      <rect width="1020" height="1020" rx="96"/>
+    </clipPath>
+
+    <!-- Striped sun mask -->
+    <mask id="sunMask">
+      <circle cx="510" cy="560" r="250" fill="white"/>
+      <rect x="200" y="520" width="620" height="14" fill="black"/>
+      <rect x="200" y="560" width="620" height="20" fill="black"/>
+      <rect x="200" y="610" width="620" height="26" fill="black"/>
+      <rect x="200" y="670" width="620" height="34" fill="black"/>
+      <rect x="200" y="740" width="620" height="42" fill="black"/>
+    </mask>
+
+    <!-- Reusable sparkle -->
+    <path id="spark" d="M 0 -18 C 0 -4 4 0 18 0 C 4 0 0 4 0 18 C 0 4 -4 0 -18 0 C -4 0 0 -4 0 -18 Z" fill="#140018"/>
+
+    <!-- Reusable diamond -->
+    <path id="diamond" d="M 0 -30 L 20 0 L 0 30 L -20 0 Z" fill="#140018"/>
+
+    <!-- Reusable cactus -->
+    <g id="cactus">
+      <rect x="-15" y="-150" width="30" height="170" rx="15" fill="#140018"/>
+      <rect x="-50" y="-110" width="22" height="66" rx="11" fill="#140018"/>
+      <rect x="-50" y="-70"  width="46" height="22" rx="11" fill="#140018"/>
+      <rect x="28"  y="-128" width="22" height="58" rx="11" fill="#140018"/>
+      <rect x="14"  y="-98"  width="36" height="22" rx="11" fill="#140018"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Sky -->
+    <rect width="1020" height="1020" fill="#DBE8FB"/>
+
+    <!-- Big striped sun -->
+    <circle cx="510" cy="560" r="250" fill="#140018" mask="url(#sunMask)"/>
+
+    <!-- Crescent moon -->
+    <circle cx="826" cy="200" r="60" fill="#140018"/>
+    <circle cx="858" cy="180" r="52" fill="#DBE8FB"/>
+
+    <!-- Star dots -->
+    <g fill="#140018">
+      <circle cx="150" cy="180" r="4"/>
+      <circle cx="260" cy="110" r="3"/>
+      <circle cx="378" cy="170" r="3"/>
+      <circle cx="642" cy="140" r="3"/>
+      <circle cx="720" cy="260" r="4"/>
+      <circle cx="170" cy="330" r="3"/>
+      <circle cx="900" cy="380" r="4"/>
+      <circle cx="110" cy="450" r="3"/>
+      <circle cx="930" cy="520" r="3"/>
+      <circle cx="480" cy="90"  r="3"/>
+    </g>
+
+    <!-- Sparkles -->
+    <use href="#spark" transform="translate(220 260) scale(0.85)"/>
+    <use href="#spark" transform="translate(700 130) scale(0.70)"/>
+    <use href="#spark" transform="translate(890 320) scale(0.55)"/>
+    <use href="#spark" transform="translate(150 510) scale(0.55)"/>
+    <use href="#spark" transform="translate(320 130) scale(0.45)"/>
+
+    <!-- Floating diamonds -->
+    <use href="#diamond" transform="translate(180 640)"/>
+    <use href="#diamond" transform="translate(890 660) scale(0.85)"/>
+    <use href="#diamond" transform="translate(250 470) scale(0.65)"/>
+    <use href="#diamond" transform="translate(790 460) scale(0.55)"/>
+
+    <!-- Hot air balloon -->
+    <g transform="translate(860 430)">
+      <path d="M 0 -110 C 60 -110 90 -60 90 -20 C 90 30 50 60 0 60 C -50 60 -90 30 -90 -20 C -90 -60 -60 -110 0 -110 Z" fill="#140018"/>
+      <path d="M -18 -110 C -30 -50 -30 30 -18 60 L 18 60 C 30 30 30 -50 18 -110 Z" fill="#DBE8FB"/>
+      <line x1="-28" y1="60" x2="-14" y2="96" stroke="#140018" stroke-width="3.5"/>
+      <line x1="28"  y1="60" x2="14"  y2="96" stroke="#140018" stroke-width="3.5"/>
+      <rect x="-22" y="94" width="44" height="30" rx="4" fill="#140018"/>
+    </g>
+
+    <!-- Far dune -->
+    <path d="M -40 850 Q 200 790 420 830 Q 640 870 1060 820 L 1060 1020 L -40 1020 Z"
+          fill="#140018" opacity="0.15"/>
+
+    <!-- Mid dune -->
+    <path d="M -40 900 Q 260 860 520 890 Q 780 920 1060 880 L 1060 1020 L -40 1020 Z"
+          fill="#140018" opacity="0.40"/>
+
+    <!-- Cacti sitting on the mid dune -->
+    <use href="#cactus" transform="translate(200 880)"/>
+    <use href="#cactus" transform="translate(820 902) scale(0.85)"/>
+
+    <!-- Front dune -->
+    <path d="M -40 1020 L -40 950 Q 300 930 620 935 Q 860 940 1060 935 L 1060 1020 Z"
+          fill="#140018"/>
+
+    <!-- Foreground pebbles / tufts -->
+    <ellipse cx="360" cy="990" rx="36" ry="10" fill="#140018"/>
+    <ellipse cx="600" cy="1000" rx="52" ry="12" fill="#140018"/>
+    <ellipse cx="820" cy="985" rx="30" ry="8" fill="#140018"/>
+    <g fill="none" stroke="#140018" stroke-width="3" stroke-linecap="round">
+      <path d="M 300 985 l -6 -18 M 310 985 l 0 -22 M 320 985 l 6 -18"/>
+      <path d="M 700 990 l -6 -16 M 710 990 l 0 -20 M 720 990 l 6 -16"/>
+    </g>
+  </g>
+</svg>
