@@ -1,7 +1,8 @@
 // Importing your local SVG assets (these import as URL strings)
 import Asana from "../extra/Asana.svg";
 import ClickUp from "../extra/ClickUp.svg";
-import Chatgpt from "../extra/Chatgpt.svg";
+import Chatgpt from "../extra/ChatGPT.svg";
+
 import Calendly from "../extra/Calendly.svg";
 import Notion from "../extra/Notion.svg";
 import Slack from "../extra/Slack.svg";
