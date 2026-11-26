@@ -1,0 +1,49 @@
+<!-- <svg width="1020" height="1020" viewBox="0 0 1020 1020" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_329_520)">
+<rect width="1020" height="1020" fill="#DBE8FB"/>
+<path d="M734.662 757.345H349.883C349.883 757.345 537.867 263.154 719.976 263.154C893.273 263.154 734.662 757.345 734.662 757.345Z" fill="#140018"/>
+<path d="M285.51 757.345H670.289C670.289 757.345 482.305 263.154 300.196 263.154C126.898 263.154 285.51 757.345 285.51 757.345Z" fill="#140018"/>
+</g>
+<defs>
+<clipPath id="clip0_329_520">
+<rect width="1020" height="1020" fill="white"/>
+</clipPath>
+</defs>
+</svg> -->
+
+<svg width="1020" height="1020" viewBox="0 0 1020 1020" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Layered mountains in brand colors">
+  <defs>
+    <clipPath id="frame">
+      <rect width="1020" height="1020" rx="96"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Background -->
+    <rect width="1020" height="1020" fill="#DBE8FB"/>
+
+    <!-- Subtle sun / moon glow -->
+    <circle cx="510" cy="560" r="180" fill="#140018" opacity="0.04"/>
+    <circle cx="510" cy="560" r="110" fill="#140018" opacity="0.06"/>
+    <circle cx="510" cy="560" r="60"  fill="#140018" opacity="0.10"/>
+
+    <!-- Birds -->
+    <g fill="none" stroke="#140018" stroke-linecap="round" opacity="0.45">
+      <path d="M620 470 c9 -11 19 -11 28 0 c9 -11 19 -11 28 0" stroke-width="5"/>
+      <path d="M720 430 c7 -9 15 -9 22 0 c7 -9 15 -9 22 0" stroke-width="4.5"/>
+      <path d="M665 540 c6 -7 12 -7 18 0 c6 -7 12 -7 18 0" stroke-width="4"/>
+    </g>
+
+    <!-- Far range -->
+    <path d="M -40 820 L 110 620 L 240 710 L 360 600 L 470 700 L 560 660 L 690 560 L 820 690 L 940 600 L 1060 700 L 1060 1020 L -40 1020 Z"
+          fill="#140018" opacity="0.18"/>
+
+    <!-- Mid range -->
+    <path d="M -40 930 L 150 770 L 300 870 L 460 730 L 600 850 L 740 750 L 880 860 L 1060 780 L 1060 1020 L -40 1020 Z"
+          fill="#140018" opacity="0.55"/>
+
+    <!-- Near range -->
+    <path d="M -40 1020 L -40 970 L 160 880 L 320 965 L 500 860 L 680 955 L 860 880 L 1060 960 L 1060 1020 Z"
+          fill="#140018" opacity="0.92"/>
+  </g>
+</svg>

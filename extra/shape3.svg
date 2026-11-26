@@ -1,0 +1,154 @@
+<!-- <svg width="1020" height="1020" viewBox="0 0 1020 1020" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_329_543)">
+<rect width="1020" height="1020" fill="#DBE8FB"/>
+<path d="M180.176 651.857L180.176 309.645C180.176 309.645 619.695 476.832 619.695 638.795C619.695 792.921 180.176 651.857 180.176 651.857Z" fill="#140018"/>
+<path d="M840 651.857L840 309.645C840 309.645 400.48 476.832 400.48 638.795C400.48 792.921 840 651.857 840 651.857Z" fill="#140018"/>
+</g>
+<defs>
+<clipPath id="clip0_329_543">
+<rect width="1020" height="1020" fill="white"/>
+</clipPath>
+</defs>
+</svg> -->
+
+
+<svg width="1020" height="1020" viewBox="0 0 1020 1020" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Surreal deep-sea night">
+  <defs>
+    <clipPath id="frame">
+      <rect width="1020" height="1020" rx="96"/>
+    </clipPath>
+
+    <!-- Reusable sparkle -->
+    <path id="spark" d="M 0 -16 C 0 -4 4 0 16 0 C 4 0 0 4 0 16 C 0 4 -4 0 -16 0 C -4 0 0 -4 0 -16 Z" fill="#140018"/>
+
+    <!-- Reusable bubble -->
+    <g id="bubble">
+      <circle r="12" fill="none" stroke="#140018" stroke-width="2.5"/>
+      <circle cx="-3" cy="-4" r="2.5" fill="#140018"/>
+    </g>
+
+    <!-- Reusable jellyfish -->
+    <g id="jelly">
+      <path d="M -60 0 C -60 -50 -30 -78 0 -78 C 30 -78 60 -50 60 0 C 30 -14 -30 -14 -60 0 Z" fill="#140018"/>
+      <path d="M -40 0 C -40 20 -34 40 -28 60" stroke="#140018" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M -14 0 C -16 24 -12 46 -8 66"  stroke="#140018" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M  14 0 C  16 24 12 46 8 66"    stroke="#140018" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M  40 0 C  40 20 34 40 28 60"  stroke="#140018" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- Reusable coral -->
+    <g id="coral" fill="#140018">
+      <rect x="-10" y="-20" width="20" height="60" rx="10"/>
+      <rect x="-34" y="-60" width="16" height="60" rx="8"/>
+      <rect x="-34" y="-60" width="40" height="16" rx="8"/>
+      <rect x="18"  y="-80" width="16" height="80" rx="8"/>
+      <rect x="4"   y="-80" width="40" height="16" rx="8"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Deep water background -->
+    <rect width="1020" height="1020" fill="#DBE8FB"/>
+
+    <!-- Depth gradient feel: bands of soft darkness -->
+    <rect x="0" y="0" width="1020" height="1020" fill="#140018" opacity="0.05"/>
+
+    <!-- Surface light rays -->
+    <g fill="#140018" opacity="0.06">
+      <polygon points="220,0 300,0 420,1020 260,1020"/>
+      <polygon points="480,0 540,0 620,1020 500,1020"/>
+      <polygon points="720,0 780,0 880,1020 740,1020"/>
+    </g>
+
+    <!-- Distant fish school -->
+    <g fill="#140018" opacity="0.35">
+      <ellipse cx="820" cy="180" rx="14" ry="6"/>
+      <ellipse cx="850" cy="200" rx="12" ry="5"/>
+      <ellipse cx="880" cy="175" rx="10" ry="4"/>
+      <ellipse cx="900" cy="205" rx="12" ry="5"/>
+      <ellipse cx="930" cy="188" rx="10" ry="4"/>
+    </g>
+
+    <!-- Whale silhouette -->
+    <g transform="translate(280 240)">
+      <path d="M -140 0 C -120 -40 -60 -60 0 -60 C 60 -60 120 -40 140 -10 C 150 -30 170 -34 170 -10 C 170 -30 190 -30 190 0 C 190 20 170 20 170 6 C 170 30 150 26 140 10 C 120 40 60 60 0 60 C -60 60 -120 40 -140 0 Z" fill="#140018"/>
+      <circle cx="60" cy="-14" r="4" fill="#DBE8FB"/>
+      <path d="M -20 30 Q 0 44 20 30" stroke="#DBE8FB" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- Big jellyfish -->
+    <g transform="translate(520 480) scale(1.25)">
+      <use href="#jelly"/>
+    </g>
+
+    <!-- Small jellyfish -->
+    <g transform="translate(200 620) scale(0.7)">
+      <use href="#jelly"/>
+    </g>
+
+    <!-- Tiny jellyfish -->
+    <g transform="translate(830 560) scale(0.5)">
+      <use href="#jelly"/>
+    </g>
+
+    <!-- Seaweed cluster -->
+    <g fill="none" stroke="#140018" stroke-width="7" stroke-linecap="round" opacity="0.85">
+      <path d="M 120 1020 C 100 940 140 900 120 840 C 105 780 140 740 130 680"/>
+      <path d="M 160 1020 C 150 950 190 910 170 850 C 155 800 185 760 175 700"/>
+      <path d="M 200 1020 C 195 960 230 920 210 870"/>
+    </g>
+
+    <!-- Rock -->
+    <path d="M 820 1020 L 800 950 Q 830 920 880 930 Q 930 940 940 970 L 930 1020 Z" fill="#140018"/>
+
+    <!-- Coral on the rock -->
+    <use href="#coral" transform="translate(870 940)"/>
+
+    <!-- Small coral on the left -->
+    <use href="#coral" transform="translate(240 1000) scale(0.75)"/>
+
+    <!-- Bubbles rising -->
+    <use href="#bubble" transform="translate(340 700)"/>
+    <use href="#bubble" transform="translate(370 640) scale(0.75)"/>
+    <use href="#bubble" transform="translate(320 570) scale(1.15)"/>
+    <use href="#bubble" transform="translate(360 500) scale(0.9)"/>
+    <use href="#bubble" transform="translate(330 430) scale(0.65)"/>
+    <use href="#bubble" transform="translate(600 780) scale(0.9)"/>
+    <use href="#bubble" transform="translate(640 700) scale(0.65)"/>
+    <use href="#bubble" transform="translate(720 640) scale(0.5)"/>
+
+    <!-- Sparkles like bioluminescence -->
+    <use href="#spark" transform="translate(180 300) scale(0.6)"/>
+    <use href="#spark" transform="translate(400 420) scale(0.45)"/>
+    <use href="#spark" transform="translate(720 380) scale(0.55)"/>
+    <use href="#spark" transform="translate(900 460) scale(0.6)"/>
+    <use href="#spark" transform="translate(160 780) scale(0.4)"/>
+    <use href="#spark" transform="translate(760 830) scale(0.5)"/>
+    <use href="#spark" transform="translate(560 900) scale(0.45)"/>
+
+    <!-- Tiny diver with a bubble helmet -->
+    <g transform="translate(470 720)">
+      <circle r="26" fill="none" stroke="#140018" stroke-width="4"/>
+      <rect x="-14" y="24" width="28" height="30" rx="6" fill="#140018"/>
+      <rect x="-20" y="54" width="12" height="30" rx="6" fill="#140018"/>
+      <rect x="8"   y="54" width="12" height="30" rx="6" fill="#140018"/>
+      <rect x="-30" y="30" width="14" height="8"  rx="4" fill="#140018"/>
+      <rect x="16"  y="30" width="14" height="8"  rx="4" fill="#140018"/>
+      <circle cx="0" cy="-6" r="6" fill="#140018"/>
+      <path d="M -6 0 Q 0 4 6 0" stroke="#DBE8FB" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- Drifting jellyfish tendril strings -->
+    <g fill="none" stroke="#140018" stroke-width="3" opacity="0.35">
+      <path d="M 520 560 C 500 640 540 700 520 780"/>
+      <path d="M 200 680 C 190 740 210 780 200 830"/>
+      <path d="M 830 620 C 820 700 850 740 840 800"/>
+    </g>
+
+    <!-- Sandy floor -->
+    <path d="M -40 1020 L -40 980 Q 200 950 400 970 Q 620 990 800 975 Q 960 965 1060 985 L 1060 1020 Z"
+          fill="#140018" opacity="0.85"/>
+    <path d="M -40 1020 L -40 1000 Q 260 985 510 995 Q 780 1005 1060 995 L 1060 1020 Z"
+          fill="#140018"/>
+  </g>
+</svg>
